@@ -1,0 +1,17 @@
+{
+    "name": "changlog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "commitmsg": "validate-commit-msg",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+        "createlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "husky": "^0.14.3"
+    }
+}
