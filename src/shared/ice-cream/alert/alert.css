@@ -1,0 +1,9 @@
+.ivu-alert-fade {
+  -webkit-animation: fade linear 1s 1;
+  -o-animation: fade linear 1s 1;
+  animation: fade linear 1s 1;
+}
+@keyframes fade {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}

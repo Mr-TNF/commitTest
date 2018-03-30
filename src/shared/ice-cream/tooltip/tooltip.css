@@ -1,0 +1,13 @@
+.ivu-tooltip-popper{
+  animation: fade linear 0.3s 1;
+  -webkit-animation:fade linear 0.3s 1;
+  -moz-animation:fade linear 0.3s 1;
+  -o-animation:fade linear 0.3s 1;
+  -ms-animation:fade linear 0.3s 1;
+  animation-fill-mode:forwards;
+  -webkit-animation-fill-mode:forwards;
+}
+@keyframes fade{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}

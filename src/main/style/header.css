@@ -1,0 +1,32 @@
+.layoutCeiling {
+    background: #4D4D4D;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #ccc;
+    padding: 0 20px;
+}
+
+.layoutCeilingTitle {
+    float: left;
+}
+
+.layoutCeilingTitle span {
+    padding: 0 10px;
+}
+
+.layoutCeilingMain {
+    float: right;
+}
+
+.layoutCeilingMain a {
+    color: #ccc;
+    padding: 0 8px;
+}
+
+.iIcon {
+    margin: 0 5px 0 0;
+}
+
+

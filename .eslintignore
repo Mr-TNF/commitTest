@@ -1,0 +1,8 @@
+build/*.js
+config/*.js
+dist/**/*.js
+static/*.js
+src/**/*.min.js
+src/shared/**/*.js
+!src/shared/ice-cream/**/*.js
+validate-commit-msg.js

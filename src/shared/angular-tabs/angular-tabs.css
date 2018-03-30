@@ -1,0 +1,85 @@
+.labelHome{
+  /*float:left;*/
+  width:35px;
+  font-size:24px;
+  height:29px;
+  color:#00ff00;
+}
+.dropdownMenu{
+  position: absolute;
+  /*left: 0;*/
+  z-index: 1000;
+  /*display: none;*/
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  /*border: 1px solid #ccc;*/
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  cursor: pointer;
+}
+.dropdownMenu li{
+  padding-left:15px;
+}
+.dropdownMenu li label{
+  width:83%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+.dropdownMenu li>i{
+  width:14px;
+  height:14px;
+}
+.dropdownMenu li:hover{
+  background-color:#eee;
+}
+.moreTab{
+  position: absolute;
+  right:0;
+  top:0;
+
+}
+.ivu-tabs.ivu-tabs-card>.ivu-tabs-bar .tab-style{
+  width:130px;
+  border-bottom:1px solid #dddee1;
+  background-color:#dddee1
+}
+.ivu-tabs.ivu-tabs-card>.ivu-tabs-bar .tab-style span{
+  display: inline-block;
+  width:90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ivu-tabs.ivu-tabs-card>.ivu-tabs-bar .tab-style .ivu-icon-ios-close-empty{
+  position: absolute;
+  width: 14px;
+  transform: translateZ(0);
+}
+.ivu-tabs.ivu-tabs-card>.ivu-tabs-bar .active {
+
+  height: 31px;
+  padding-bottom: 5px;
+  background: #fff;
+  transform: translateZ(0);
+  border-color: #dddee1;
+  color: #89127A;
+  border-bottom-color: #fff !important;
+}
+.ivu-tabs.ivu-tabs-card>.ivu-tabs-bar .active .ivu-icon-ios-close-empty{
+  width: 14px;
+  transform: translateZ(0);
+}
+.contentStyle {
+  padding:20px;
+}
+

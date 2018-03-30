@@ -1,0 +1,22 @@
+.menu {
+    overflow: auto;
+    height: calc(100vh - 88px);
+}
+
+.menu {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* 解决悬浮效果背景色覆盖滚动条的问题 */
+:global .ivu-menu-vertical .ivu-menu-item {
+    z-index: auto;
+}
+:global .ivu-menu-vertical .ivu-menu-submenu-title {
+    z-index: auto;
+}
+
+:global .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+    z-index: auto;
+}
